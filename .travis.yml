@@ -1,3 +1,5 @@
 language: java
 jdk:
   - oraclejava11
+before_install:
+  - chmod +x mvnw
